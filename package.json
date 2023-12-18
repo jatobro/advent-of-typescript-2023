@@ -1,0 +1,25 @@
+{
+  "name": "advent-of-typescript-2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsc --watch ./$DAY/index.ts",
+    "typecheck": "tsc -p tsconfig.json",
+    "lint": "eslint . --cache",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write --ignore-unknown --cache",
+    "format:ci": "prettier . --check --ignore-unknown"
+  },
+  "keywords": [],
+  "author": "zyhou",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "type-testing": "^0.2.0"
+  }
+}
