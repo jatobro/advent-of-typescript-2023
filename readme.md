@@ -5,7 +5,7 @@
 npm i
 
 # Type check a specific day
-DAY=1 npm start
+DAY=01 npm start
 
 # Type check the whole project
 npm typecheck
